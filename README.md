@@ -7,8 +7,12 @@ This was a great CSS refresher project after reviewing the Scrimba Essential CSS
 
 The figma file for the project can be found here: https://www.figma.com/file/xsVZxq50kVtir6zcyozStI/Oldagram-(Copy)?node-id=0%3A1&t=Bc0rzLpcU24zjT2E-1
 
-The project scope was simply to replicate the first "post" design and add a hover function to the buttons. However, there are additional goals using Javascript that I am hoping to implement.  
+The project scope was simply to replicate the first "post" design and add a hover function to the buttons. However, there are bonus "stretch" goals using Javascript that I am hoping to implement.  
 
 ## Next Steps
 
 I want to make this project interactive with JS. The likes will be clickable and increment, and the other posts (currently stored in JS objects) will also appear on the "app". 
+
+Update 1/25: I've gotten each post to render out dynamically in JS! The most challenging part was figuring out how to do so with the images, but I'm happy to have learned something new about rendering images in JS. My next goal is to get the "Likes" on each post to increment when the heart button is clicked. 
+
+Also, I'm sure the code I've written so far could be refactored to make it more efficient, so I'll be looking at that as well. 

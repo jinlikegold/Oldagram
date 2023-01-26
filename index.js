@@ -43,51 +43,22 @@ can cycle through the objects in posts and plug them into each member of the arr
 
 let's try it
 
+ok actually I needed to make separate arrays for each set of variables
 
-let location = document.querySelector(".location")
-let userName = document.querySelector(".username")
+now to refactor...
 
 */
 
-
-let fullName1 = document.querySelector(".full-name1")
-let fullName2 = document.querySelector(".full-name2")
-let fullName3 = document.querySelector(".full-name3")
-
-let location1 = document.querySelector(".location1")
-let location2 = document.querySelector(".location2")
-let location3 = document.querySelector(".location3")
-
-let likes1 = document.querySelector(".likes1")
-let likes2 = document.querySelector(".likes2")
-let likes3 = document.querySelector(".likes3")
-
-let username1 = document.querySelector(".username1")
-let username2 = document.querySelector(".username2")
-let username3 = document.querySelector(".username3")
-
-let comment1 = document.querySelector(".comment1")
-let comment2 = document.querySelector(".comment2")
-let comment3 = document.querySelector(".comment3")
-    
-let avatar1 = document.querySelector(".avatar1")
-let avatar2 = document.querySelector(".avatar2")
-let avatar3 = document.querySelector(".avatar3")
-
-let post1 = document.querySelector(".post1")
-let post2 = document.querySelector(".post2")
-let post3 = document.querySelector(".post3")
-
-const names = [fullName1, fullName2, fullName3]
-const locations = [location1, location2, location3]
-const likes = [likes1, likes2, likes3]
-const usernames = [username1, username2, username3]
-const comments = [comment1, comment2, comment3]
-const avatars = [avatar1, avatar2, avatar3]
-const postImgs = [post1, post2, post3]
+let fullNames = document.querySelectorAll(".full-name")
+let locations = document.querySelectorAll(".location")
+let likes = document.querySelectorAll(".likes")
+let usernames = document.querySelectorAll(".username")
+let comments = document.querySelectorAll(".comment")
+let avatars = document.querySelectorAll(".avatar")
+let postImgs = document.querySelectorAll(".post")
 
 for (i=0; i<posts.length; i++) {
-    names[i].textContent = posts[i].name
+    fullNames[i].textContent = posts[i].name
     locations[i].textContent = posts[i].location
     likes[i].textContent = posts[i].likes
     usernames[i].textContent = posts[i].username

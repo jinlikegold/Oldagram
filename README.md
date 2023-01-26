@@ -13,10 +13,12 @@ The project scope was simply to replicate the first "post" design and add a hove
 
 I want to make this project interactive with JS. The likes will be clickable and increment, and the other posts (currently stored in JS objects) will also appear on the "app". 
 
-Update 1/25: I've gotten each post to render out dynamically in JS! The most challenging part was figuring out how to do so with the images, but I'm happy to have learned something new about rendering images in JS. My next goal is to get the "Likes" on each post to increment when the heart button is clicked. 
+### Update 1/25: 
+I've gotten each post to render out dynamically in JS! The most challenging part was figuring out how to do so with the images, but I'm happy to have learned something new about rendering images in JS. My next goal is to get the "Likes" on each post to increment when the heart button is clicked. 
 
 Also, I'm sure the code I've written so far could be refactored to make it more efficient, so I'll be looking at that as well. 
 
-Update 1/26: Code has been refactored to be much more efficient. Good old querySelectorAll - I never learned it officially, so it was a pleasure to learn to use it in action, and see it erase the need for complex arrays and the previously non-dynamic numbering of classes. 
+### Update 1/26: 
+Code has been refactored to be much more efficient. Good old querySelectorAll - I never learned it officially, so it was a pleasure to learn to use it in action, and see it erase the need for complex arrays and the previously non-dynamic numbering of classes. 
 
 Next, I would like to dynamically update the alt text for each image, as well as create that clickable "Likes" function. 
